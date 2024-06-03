@@ -1,0 +1,178 @@
+.body-container{
+ 
+  background: linear-gradient(135deg,#C8B6A6,#F8EDE3,#C8B6A6);
+ 
+}
+.header {
+  text-align: center;
+  justify-content: center;
+  font-family: 'Switzer', sans-serif;
+  font-size: 3rem !important;
+  word-spacing: 10px;
+  letter-spacing: 3px;
+  padding-top: 1rem;
+}
+@font-face {
+  font-family: "food";
+  src: url("../../Fonts/agentorange.ttf");
+}
+.cart-page {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  display: flex;
+  background: linear-gradient(135deg,#DDE6ED,#F8EDE3,#DDE6ED);
+ 
+}
+.cart-page table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.cart-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+.name{
+  font-size: 1.25rem;
+}
+.cart-info span {
+  margin-left: 10px;
+}
+.cart-page th {
+  text-align: left;
+  padding: 5px;
+  font-weight: normal;
+  
+}
+.fz {
+  padding: 10px 5px;
+  border-top: 2px solid black;
+}
+.cart-page td input {
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+.cart-page td img {
+  width: 120px;
+  height: 100px;
+  margin-right: 10px;
+}
+.cart-page button{ 
+  background-color: #cddbe6;;
+}
+.bi-trash{
+  color: red;
+}
+.cart-bottom a {
+  margin-left: 15px;
+  margin-right: 25px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: black;
+}
+.cart-bottom span {
+  margin: 0 5px;
+}
+/*____Summary___*/
+.cart-note {
+  margin: 20px 50px;
+  /* background-color: orange; */
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 30%;
+  height: max-content;
+}
+
+.total-price {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem 20px;
+  height: auto;
+}
+.line {
+  border-top: 3px solid black;
+}
+.total-price table {
+  max-width: 350px;
+  width: 100%;
+  height: 140px;
+}
+.cart-note button {
+  width: 35%;
+  margin: 0.5rem 32%;
+  border-radius: 10px;
+
+  /* background-color: #D0B8A8; */
+}
+
+/* __Recomend__*/
+
+.Recomend {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  font-family: "food";
+  word-spacing: 5px;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 2px #c7beb6;
+  padding: 5px;
+}
+.gallery {
+  width: 1200px;
+  display: flex;
+  overflow-x: scroll;
+  border-radius: 10px;
+  background: linear-gradient(135deg,#F8EDE3,#C8B6A6,#F8EDE3);
+}
+.gallery div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 20px;
+  padding: 10px;
+  flex: none;
+}
+.gallery div img {
+  width: 100%;
+  /* filter: grayscale(100%);
+    transition: transform 0.5s; */
+}
+.gallery::-webkit-scrollbar {
+  display: none;
+}
+.gallery-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 3% auto;
+}
+#backBtn,
+#nextBtn {
+  cursor: pointer;
+  margin: 40px;
+}
+
+.gallery div img:hover {
+  /* filter: grayscale(0); */
+  cursor: pointer;
+  transform: scale(1.1);
+  border: 2px solid  #F8EDE3;
+  box-shadow: 4px 4px 4px silver;
+}
+.pd-container {
+  position: relative;
+  width: 220px;
+  color: black;
+}
+.pd-info {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* background-color: brown; */
+}
+.pd-info td {
+  /* border: 2px solid black; */
+  width: 100%;
+}
