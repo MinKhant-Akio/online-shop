@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "title";
+    src: url("../../Fonts/agentorange.ttf");
+  }
+h3{
+    font-family: 'title';
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    background: linear-gradient(135deg,#F8EDE3,#DDE6ED,#F8EDE3);
+   
+}
+h4{
+    font-family: 'Switzer', sans-serif;
+    word-spacing: 8px;
+    letter-spacing: 3px;
+}
+
+.light-blue{
+    /* background: linear-gradient(135deg,#C8B6A6,#F8EDE3,#C8B6A6); */
+
+    background: linear-gradient(135deg,#DDE6ED,#F8EDE3,#DDE6ED);
+ 
+}
+.brown-light{
+    background: linear-gradient(135deg,#F8EDE3,#DDE6ED,#F8EDE3);
+    }
