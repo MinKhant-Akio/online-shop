@@ -21,6 +21,7 @@
   </style>
   </head>
   <body class="overflow-x-hidden" style="background: linear-gradient(135deg,#C8B6A6,#F8EDE3,#C8B6A6);">
+    
     <div>
         <div class="row my-2">
             <div id="carouselExampleCaptions" class="carousel slide">

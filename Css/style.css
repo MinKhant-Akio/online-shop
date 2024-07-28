@@ -1,0 +1,119 @@
+.login-form-container{
+    font-family: 'Switzer', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    min-height:100vh;
+    width: 100%;
+    background:rgba(0,0,0,.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    background-image: url(images/Red_Apple.jpeg);
+}
+#form{
+    background-color: rgba(255, 255, 255, 0.284);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    padding: 1.3rem 2rem;
+    width: 27%;
+    text-align: justify;
+    border-radius: 9px;
+    position: relative;
+}
+.login{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    background-color: none;
+    margin-bottom: 10px;
+}
+.btnn{
+    padding: 0.5rem 0;
+    margin: 0.4rem 0;
+    border: 0;
+    border-radius: 9px;
+    font-size: 1.2rem;
+    border: 1px solid #306A9E;
+    background-color: #3D85C6;
+    color: white;
+    font-weight: 600;
+}
+.btnn:hover{
+    background-color: #639DD1;
+    color: white;
+}
+.input-container{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin: 0.4rem 0;
+
+}
+.input-container input{
+    padding: 0 80px 0 10px ;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #85586F;
+    border-radius: 10px;
+}
+.input-container i{
+    position: absolute;
+    right: 50px;
+    top: 18%;
+    font-size: 1.5rem;
+    color: #85586F;
+}
+.input-name{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    margin: 0.4rem 0;
+
+}
+.input-name input{
+    padding: 0 1rem;
+    height: 100%;
+    width: 43%;
+    border: 1px solid #85586F;
+    border-radius: 10px;
+    text-align: center;
+}
+.firstn{
+    margin-right: 3rem;
+    text-align: center;
+}
+
+.button{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    padding:0.3rem 0.5rem;
+    border-radius: 70px;
+    font-size: 0.85rem;
+    color: black;
+    border: 1px solid black;
+}
+.button:hover{
+    background-color: #F8EDE3;
+    color: #85586F;
+}
+.checkbox{
+    margin: 0.4rem 0;
+    color: white;
+}
+.forgetPass{
+    color: white;
+}
+
+
+

@@ -1,19 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../Css/normalize.css" />
-    <link rel="stylesheet" href="../Css/utils.css" />
-    <link rel="stylesheet" href="../Css/home.css" />
-    <link href="https://api.fontshare.com/v2/css?f[]=switzer@100,500,700&f[]=britney@300,400,700&display=swap" rel="stylesheet"/>
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
-    <link rel="shortcut icon" href="../images/fashionlogo.jpg" type="image/x-icon"/>
-    <title>Fashion Destiny</title>
-  </head>
-  <body>
-    <!-- Desktop Nav -->
-    <nav class="nav container flex">
+<!-- Desktop Nav -->
+<nav class="nav container flex">
       <div class="nav__logo flex">
         <img src="../images/fashionlogo.jpg" alt="" />
         <div class="nav__logo-headings flex">
@@ -28,10 +14,10 @@
         <li>
           <a href="" class="flex">Cart<i class="bx bx-cart"></i></a>
         </li>
-        <li><a href="">About</a></li>
+        <li><a href="../Code/aboutUs.html">About</a></li>
         <li><a href="">Contact</a></li>
         <li class="nav__links-line"></li>
-        <li><button class="btn">Login</button></li>
+        <li><button class="btn" name="Login">Login</button></li>
       </ul>
 
       <button class="nav__menu-btn" onclick="mobile_menu.showModal()">
@@ -47,10 +33,10 @@
         <li>
           <a href="" class="flex">Cart<i class="bx bx-cart"></i></a>
         </li>
-        <li><a href="#">About</a></li>
+        <li><a href="../Code/aboutUs.html">About</a></li>
         <li><a href="#">Contact</a></li>
         <li class="nav__mobile-links-line"></li>
-        <li><button class="btn">Login</button></li>
+        <li><button class="btn" name="login?click=do">Login</button></li>
         <li>
           <button class="nav__menu-btn" onclick="mobile_menu.close()">
             <i class="bx bx-x-circle"></i>
@@ -68,7 +54,7 @@
             <a href="#">Hats</a>
             <a href="#">Jewelry</a>
             <a href="#">Suits</a>
-            <a href="#">Shoes</a>
+            <a href="../Code/product.php">Shoes</a>
           </div>
         </div>
         <div class="category__women">
@@ -77,7 +63,7 @@
             <a href="#">Hats</a>
             <a href="#">Jewelry</a>
             <a href="#">Dresses</a>
-            <a href="#">Shoes</a>
+            <a href="../Code/product.php">Shoes</a>
           </div>
         </div>
         <div class="category__children">
@@ -86,7 +72,7 @@
             <a href="#">Hats</a>
             <a href="#">Jewelry</a>
             <a href="#">One-sets</a>
-            <a href="#">Shoes</a>
+            <a href="../Code/product.php">Shoes</a>
           </div>
         </div>
       </div>
@@ -95,26 +81,3 @@
         <span>Go Back</span>
       </button>
     </dialog>
-
-    <!-- HOME PAGE CONTENT STARTS HERE -->
-    <!-- Hero section -->
-    <section class="hero-section container">
-      <!-- <h1 class="welcome__title">Woohoo, you made it!</h1>
-      <p class="welcome__para">
-        Welcome to the land of quirky fashion and endless possibilities. Get
-        ready to mix, match, and make a statement like never before. Life's too
-        short for boring clothes - let's have some fun!
-      </p> -->
-      <div class="landing-img"></div>
-      <div class="landing-text">
-        <p>Get ready to </p>
-        <h1>MIX</h1>
-        <h1>MATCH</h1>
-        <p>and make a statement like never before. </p>
-        <a href="#" class="btn-no-bg">Let's explore!</a>
-      </div>
-
-    </section>
-
-  </body>
-</html>
