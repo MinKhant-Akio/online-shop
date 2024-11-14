@@ -13,10 +13,13 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="../Css/nav&footer.css">
     
 </head>
 <body class="overflow-x-hidden">
-    
+    <?php
+        include 'newNav.php';
+    ?>
     <div class="row light-blue">
         <h3 class="text-center fs-1 py-3">About Us</h3>
         <div class="d-flex justify-content-around">
@@ -48,5 +51,8 @@
             </div>
         </div>
     </div>
+    <?php
+        include 'footer.php';
+    ?>
 </body>
 </html>

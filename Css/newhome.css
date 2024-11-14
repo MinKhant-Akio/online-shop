@@ -1,0 +1,59 @@
+.image-text-container {
+    position: relative;
+}
+.text-overlay {
+    color: white;
+    bottom: 20px;
+    left: 20px;
+    padding: 15px;
+    /* background: rgba(0, 0, 0, 0.5);*/
+    width: 90%; 
+}
+
+.text-side {
+    background: rgba(237, 230, 230, 0.5);
+}
+/*discount*/
+
+ .bg-grey{
+    background: #F1F1F1;
+ }
+ .coupon{
+    font-family: 'Switzer', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    position: relative;
+    z-index: 1;
+ }
+ .bold-text{
+    right: 0;
+    bottom: -42px;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 8.8em;
+    color: #E1E1E1;
+   z-index: 1;
+  }
+  .email{
+    letter-spacing: 3px;
+    font-size: 1rem;
+    position: relative;
+    z-index: 3;
+  }
+/*latest_product*/
+.title {
+    font-family: 'Switzer', sans-serif; /* Replace 'YourFontFamily' with your chosen font */
+    letter-spacing: 1.5px; /* Adjust the letter spacing as needed */
+    font-weight: 400; /* Optional: adjust font weight */
+  }
+@media (min-width: 768px) {
+    .text-overlay {
+        /* Styles applied on medium screens and larger */
+        display: block;
+    }
+    .text-side {
+        display: none; /* Hide side text on medium and larger screens */
+    }
+    
+}
+
+

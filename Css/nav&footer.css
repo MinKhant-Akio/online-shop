@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+}
+.simon {
+  display: flex;
+  padding-top: 0.8rem;
+}
+.logo {
+  font-size: 1.3rem;
+  text-align: end;
+  padding-right: 9rem;
+  font-size: 1.6rem;
+}
+.right {
+  display: flex;
+  justify-content: end;
+  padding-right: 4rem;
+  gap: 2rem;
+  align-items: center;
+}
+.right i {
+  font-size: 1.1rem;
+  color: black;
+}
+.top nav {
+  text-align: center;
+}
+.top nav a {
+  position: relative;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem 1rem;
+  margin: 0rem 1.2rem;
+}
+.top nav a::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.743);
+  height: 2px;
+  width: 0;
+  bottom: 10px;
+  left: 0;
+  border-radius: 40%;
+  transition: 0.7s;
+}
+.top nav a:hover::after {
+  width: 100%;
+}
+.upperfooter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+  gap: 1rem;
+  padding: 3rem 5rem;
+  color: white;
+  padding-bottom: 2rem;
+  padding-top: 1.1rem;
+}
+.foot {
+  /* background-color: rgba(34, 34, 34, 0.501); */
+  background-color: black;
+}
+.mini h4 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.mini p {
+  margin: 0.3rem 0;
+  color: rgba(224, 221, 221, 0.745);
+}
+.subscribe input {
+  width: 70%;
+  height: 3.3vh;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding-left: 0.5rem;
+}
+.btnsubscribe {
+  height: 4vh;
+  background-color: rgb(226, 150, 8);
+  border: 1px solid rgb(226, 150, 8);
+  border-radius: 4px;
+  width: 18%;
+  margin-left: 0.4rem;
+  color: white;
+}
+.btnsubscribe:hover {
+  background-color: rgb(150, 99, 4);
+  border: 1px solid rgb(150, 99, 4);
+}
+.socialmedia i {
+  font-size: 1.1rem;
+  margin: 0 0.2rem;
+  color: white;
+}
+.socialmedia {
+  margin: 0.5rem 0;
+}
+.mobile {
+  margin-left: 0.4rem;
+  line-height: 2.7vh;
+  font-size: 0.8rem;
+}
+.line {
+  border-top: 2px solid white;
+  margin: 0 10rem;
+  height: 1vh;
+}
+.lowerfooter {
+  display: flex;
+  margin-top: 0.3rem;
+}
+.name {
+  display: flex;
+  width: 70%;
+  margin-left: 7rem;
+}
+.name p {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+  margin-left: 0.4rem;
+  color: white;
+}
+.name img {
+  width: 90px;
+}
+.copyright {
+  color: white;
+  width: 80%;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copyright p{
+    font-size: 0.8rem;
+}

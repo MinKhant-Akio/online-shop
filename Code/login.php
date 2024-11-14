@@ -29,7 +29,7 @@
                     if($e='admin@gmail.com' && $pw='admin123')
                     {
                         // echo "<script>location.assign('home.php')</script>";
-                        header('location:home.php');
+                        header('location:newHome.php');
                     }
                 }
             ?>
